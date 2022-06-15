@@ -1,0 +1,27 @@
+npm init
+npm i react react-dom
+npm i typescript
+npm i @types/react @types/react-dom
+npm i -D eslint
+npm i -D prettier eslint-plugin-prettitier eslint-config-prettier
+//tsconfig.josn 생성
+//webpack.config.ts 생성(이름 바꾸기)
+npm i -D webpack @babel/core babel-loader @babel/preset-env @babel/preset-react
+npm i -D @types/webpack @types/node @babel/preset-typescript
+npm i style-loader css-loader
+//tsconfig-for-webpack-config.json 설치
+npx webpack
+npm i ts-node
+npm i react-refresh/babel
+npm i cross-env //리눅스랑 윈도우 둘 다 build 되게끔
+npm i @emotion/babel-plugin
+npm i @pmmmwh/react-refresh-webpack-plugin
+
+npm run build되면 dist/app.js 생김 -> 이게 html의 js script
+
+
+----Hot Reloading----
+npm i webpack-dev-server -D //proxy 역할도 함. CORS 해결
+npm i webpack-cli
+npm i @types/webpack-dev-server
+npm i fork-ts-checker-webpack-plugin //typescript 체크랑 webpack 동시에 들어가게
